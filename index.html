@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chandan's Portfolio</title>
+    <!--<meta
+      property="og:title"
+      content="Active online software page - Template"
+    />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted Button Text;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5;
+       }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+      ></script>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-menu">
+            <div id="mobile-menu" class="home-mobile-navigation">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/ceetoo%20logo-1500h.png"
+                class="home-logo"
+              />
+              <div class="home-links">
+                <a href="#about" class="home-about Link">About</a>
+                <a href="#skills" class="home-skills Link">Skills</a>
+                <a href="#works" class="home-works Link">Works</a>
+                <a href="#services" class="home-services Link">Services</a>
+              </div>
+              <div id="close-mobile-menu" class="home-close-mobile-menu">
+                <svg viewBox="0 0 804.5714285714286 1024" class="home-icon">
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="home-desktop-navigation">
+              <nav class="home-centered">
+                <div class="home-left">
+                  <img
+                    alt="pastedImage"
+                    src="public/playground_assets/ceetoo-logo-200h.png"
+                    class="home-logo1"
+                  />
+                  <div class="home-container1">
+                    <div class="home-links1">
+                      <span class="home-text Link">About</span>
+                      <a href="#skills" class="home-link Link">Skill</a>
+                      <a href="#works" class="home-link01 Link">Works</a>
+                      <a href="#services" class="home-link02 Link">Services</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-middle">
+                  <a
+                    href="https://www.instagram.com/ceetoo_graphics/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link03"
+                  >
+                    <svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon02"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100027923954713"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link04"
+                  >
+                    <svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="home-icon04"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@introvert7320/featured"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link05"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="home-icon06">
+                      <path
+                        d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <div class="home-right">
+                  <span class="home-sign-in Link">Log in</span>
+                  <div class="home-get-started">
+                    <span class="home-text01">Sign Up</span>
+                  </div>
+                  <div id="open-mobile-menu" class="home-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/playground_assets/pastedimage-yxbd.svg"
+                      class="home-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+/*
+Mobile menu - Code Embed
+*/
+
+// Mobile menu
+const mobileMenu = document.querySelector('#mobile-menu')
+
+// Buttons
+const closeButton = document.querySelector('#close-mobile-menu')
+const openButton = document.querySelector('#open-mobile-menu')
+
+// On openButton click, set the mobileMenu position left to -100vw
+openButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(0%)'
+})
+
+// On closeButton click, set the mobileMenu position to 0vw
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.transform = 'translateX(100%)'
+})
+</script>"
+              ></dangerous-html>
+            </div>
+          </div>
+          <header id="about" class="home-header">
+            <h1 class="home-text02">Hi! I am Chandan Chaudhary.</h1>
+            <p class="home-text03">
+              Hello! I am a creative person from Nepal. I am a Graphic Designer,
+              Video Editor, Web Developer, Photographer who loves to create
+              different interesting contents.
+            </p>
+            <div class="home-get-started1">
+              <span class="home-text04">Learn More</span>
+            </div>
+          </header>
+          <div class="home-chandan-graphics">
+            <div class="home-outline">
+              <img
+                alt="pastedImage"
+                src="public/playground_assets/ceetoo.png"
+                loading="lazy"
+                class="home-image"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="home-skills1">
+          <div class="home-title">
+            <span class="home-text05">Let's see what my Skills</span>
+            <span class="home-text06">
+              <span class="home-text07">
+                The following are the skills that I have I learnt from the web
+                on my own. Let's see&nbsp;
+              </span>
+              <br />
+              <span>what are my skills.</span>
+              <br />
+            </span>
+          </div>
+          <div id="skills" class="home-cards">
+            <div class="home-container2">
+              <div class="home-schedule card">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/photo_camera_icon_123441-200h.png"
+                  class="home-icon08"
+                />
+                <span class="home-text11">Photography</span>
+                <span class="home-text12">
+                  I love photography. I do photography when I go out for a
+                  visit.
+                </span>
+              </div>
+              <div class="home-publish card">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/adobe_illustrator_macos_bigsur_icon_190447-200h.png"
+                  class="home-icon09"
+                />
+                <span class="home-text13">Illustrator</span>
+                <span class="home-text14">
+                  I use Illustrator to create vector graphics and making logos.
+                </span>
+              </div>
+            </div>
+            <div class="home-container3">
+              <div class="home-analyze card">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/adobe_photoshop_macos_bigsur_icon_190436-200h.png"
+                  class="home-icon10"
+                />
+                <span class="home-text15">Photoshop</span>
+                <span class="home-text16">
+                  I love to use Photoshop for various purposes like photo
+                  editing, retouching, manipulation and thumbnail designs
+                </span>
+              </div>
+              <div class="home-get-leads card">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/adobe_premiere_pro_macos_bigsur_icon_189485-200h.png"
+                  class="home-icon11"
+                />
+                <span class="home-text17">
+                  <span>Premiere Pro</span>
+                  <br />
+                </span>
+                <span class="home-text20">
+                  I also use Premiere Pro for editing my videos and creating
+                  awesome content.
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-quote-container">
+          <div class="home-quote">
+            <span class="home-message">
+              Contact me for any services that you require considering my shown
+              skills in the website.
+            </span>
+            <div class="home-author">
+              <img
+                alt="image"
+                src="public/playground_assets/ceetoo-logo2-200h.png"
+                class="home-avatar"
+              />
+              <span class="home-quote1">
+                - Chandan Chaudhary, Founder, Ceetoo
+              </span>
+            </div>
+          </div>
+        </section>
+        <section class="home-company-logo">
+          <a
+            href="https://www.facebook.com/profile.php?id=100027923954713"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="home-link06"
+          >
+            <img
+              alt="image"
+              src="public/playground_assets/ceetoo%20white%20logo-800h.png"
+              class="home-image1 Link"
+            />
+          </a>
+        </section>
+        <section id="works" class="home-designs">
+          <div class="home-graphics">
+            <div class="home-centered-container">
+              <div class="home-image-container">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/graphics-combo-1300w.png"
+                  class="home-cards-image"
+                />
+              </div>
+              <div class="home-right1">
+                <h2 class="home-text21 title">
+                  <span class="home-text22">Graphic Designs</span>
+                  <br />
+                </h2>
+                <div class="home-category">
+                  <span class="home-text24">Social Media Posts</span>
+                  <span class="home-text25">
+                    <span class="home-text26">
+                      These are some Graphic Designs that I Created for Social
+                      Media Posts using Photoshop.
+                    </span>
+                    <br />
+                    <br />
+                    <span>
+                      I like to use photoshop for creating various kinds of
+                      graphic designs which are usually appealing and eye
+                      catching.
+                    </span>
+                    <br />
+                  </span>
+                  <a
+                    href="https://www.instagram.com/ceetoo_graphics/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link07"
+                  >
+                    <div class="home-get-started2 template-button">
+                      <span class="home-text31">View More</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-photo-manipulation">
+            <div class="home-container4">
+              <div class="home-left1">
+                <h2 class="home-text32 title">Photo Manipulation</h2>
+                <span class="home-text33">
+                  I also create amazing compositions using parts of different
+                  photos, combining and blending them together. I also like to
+                  edit photos and videos.
+                </span>
+              </div>
+              <div class="home-image-container1">
+                <img
+                  alt="pastedImage"
+                  src="public/playground_assets/manipulation%20combo-1300w.png"
+                  class="home-cards-image1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-banner">
+            <h1 class="home-text34">An ad created by me</h1>
+            <span class="home-text35">Using After Effects</span>
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EKEch8PZ5Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+              class="home-iframe"></iframe>
+          </div>
+          <div id="services" class="home-services1">
+            <h1 class="home-text36">
+              <span>Explore our services</span>
+              <br />
+              <span></span>
+            </h1>
+            <span>We provide various kinds of services.</span>
+            <div class="home-container5">
+              <div class="home-feature-card">
+                <img
+                  alt="image"
+                  src="public/playground_assets/pen_tool_anchor_point_design_icon_142354-600h.png"
+                  class="home-image2"
+                />
+                <h2 class="home-text40">Graphic Designing</h2>
+                <span class="home-text41">
+                  <span>-Banners</span>
+                  <br />
+                  <span>-Posters</span>
+                  <br />
+                  <span>-Social Media Designs</span>
+                  <br />
+                  <span>-Logo Design</span>
+                  <br />
+                  <span>-YouTube Thumbnails</span>
+                  <br />
+                </span>
+              </div>
+              <div class="home-feature-card1">
+                <img
+                  alt="image"
+                  src="public/playground_assets/image-editing_115271-600h.png"
+                  class="home-image3"
+                />
+                <h2 class="home-text52">Photo Editing</h2>
+                <span class="home-text53">
+                  <span>-Photo Retouching</span>
+                  <br />
+                  <span>-Photo Manipulation</span>
+                  <br />
+                  <span>-Color Correction</span>
+                </span>
+              </div>
+              <div class="home-feature-card2">
+                <img
+                  src="public/playground_assets/iconfinder-videoeditingeditorslicecrop-3993845_112640-600h.png"
+                  alt="image"
+                  class="home-image4"
+                />
+                <h2 class="home-text59">Video Editing</h2>
+                <span class="home-text60">
+                  <span>-Long and Short form Videos</span>
+                  <br />
+                  <span>-Sound fx and design</span>
+                  <br />
+                  <span>-Color correction and color grading</span>
+                  <br />
+                  <span>-Cuts and transitions</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <div class="home-top">
+            <div class="home-left2">
+              <div class="home-contact">
+                <span class="home-text69">Contact</span>
+                <a
+                  href="mailto:chaudhary10cn@gmail.com?subject=Send mail"
+                  class="home-link08"
+                >
+                  chaudhary10cn@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="home-right2">
+              <div class="home-category1">
+                <span class="home-text70">Skills</span>
+                <div class="home-links2">
+                  <span class="home-text71">Photoshop</span>
+                  <span class="home-text72">Illustrator</span>
+                  <span class="home-text73">Premiere Pro</span>
+                  <span class="home-text74">Web Development</span>
+                </div>
+              </div>
+              <div class="home-category2">
+                <span class="home-text75">Company</span>
+                <div class="home-links3">
+                  <a href="#about" class="home-link09">About</a>
+                  <a href="#skills" class="home-link10">
+                    <span>Skills</span>
+                    <br />
+                  </a>
+                  <a href="#works" class="home-link11">Works</a>
+                </div>
+              </div>
+              <div class="home-category3">
+                <span class="home-text78">Social Media</span>
+                <div class="home-links4">
+                  <a
+                    href="https://www.instagram.com/ceetoo_graphics/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link12"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100027923954713"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-link13"
+                  >
+                    Facebook
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-bottom">
+            <img
+              alt="pastedImage"
+              src="public/playground_assets/ceetoo%20logo-1500h.png"
+              class="home-branding"
+            />
+            <span class="home-text79">Copyright © Ceetoo - 2023</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
