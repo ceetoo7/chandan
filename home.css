@@ -44,7 +44,7 @@
 .home-mobile-navigation {
   top: 0px;
   flex: 0 0 auto;
-  left: 0px;
+  left: 150px;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -82,12 +82,12 @@
   text-decoration: none;
 }
 .home-close-mobile-menu {
-  top: var(--dl-space-space-oneandhalfunits);
-  right: var(--dl-space-space-oneandhalfunits);
+  top: 330px;
+  right: 240px;
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
   display: flex;
-  position: absolute;
+  position: fixed;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -752,7 +752,7 @@
   width: 300px;
   height: 100%;
   display: flex;
-  padding: var(--dl-space-space-unit);
+  padding: 5px 5px 48px 5px;
   position: absolute;
   align-items: center;
   flex-direction: column;
@@ -760,7 +760,7 @@
 }
 .home-feature-card:hover{
   transform: scale(1.10);
-  box-shadow: 5px 5px 8px rgb(227, 227, 227);
+  box-shadow: 5px 1px 8px rgb(227, 227, 227);
   border-radius: 22px;
 }
 .home-image2 {
@@ -788,7 +788,7 @@
   height: 100%;
   margin: auto;
   display: flex;
-  padding: var(--dl-space-space-unit);
+  padding: 30px 5px 5px 5px;
   position: absolute;
   align-self: center;
   align-items: center;
@@ -797,7 +797,7 @@
 }
 .home-feature-card1:hover{
   transform: scale(1.10);
-  box-shadow: 5px 5px 8px rgb(227, 227, 227);
+  box-shadow: 5px 1px 8px rgb(227, 227, 227);
   border-radius: 22px;
 }
 .home-image3 {
@@ -823,14 +823,14 @@
   width: 300px;
   height: 100%;
   display: flex;
-  padding: var(--dl-space-space-unit);
+  padding: 5px 5px 48px 5px;
   position: absolute;
   flex-direction: column;
   transition: 0.5s;
 }
 .home-feature-card2:hover{
   transform: scale(1.10);
-  box-shadow: 5px 5px 8px rgb(227, 227, 227);
+  box-shadow: 5px 1px 8px rgb(227, 227, 227);
   border-radius: 22px;
 }
 .home-image4 {
@@ -1389,7 +1389,7 @@
     flex-direction: column-reverse;
   }
   .home-right1 {
-    margin-left: 0px;
+    margin-left: -32px;
   }
   .home-text21 {
     font-size: 28px;
@@ -1565,7 +1565,7 @@
   }
   .home-feature-card {
     left: 0px;
-    width: var(--dl-size-size-large);
+    width: 120px;
     bottom: 0px;
     height: 100%;
     font-size: 12px;
@@ -1574,13 +1574,13 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    width: var(--dl-size-size-large);
+    width: 120px;
     margin: auto;
     font-size: 12px;
   }
   .home-feature-card2 {
     right: 0px;
-    width: var(--dl-size-size-large);
+    width: 120px;
     bottom: 0px;
     font-size: 12px;
   }
@@ -1588,4 +1588,10 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
+  .home-services1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+}
 }
